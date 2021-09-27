@@ -16,7 +16,7 @@ function countTag() {
         document.querySelector(".details span").classList.remove('success');
         document.querySelector(".details span").classList.remove('warning');
     } 
-    else if (tags.length >= 1 && tags.length <= 3) {
+    else if (tags.length >= 7 && tags.length <= 9) {
         document.querySelector(".details span").classList.add('warning');
         document.querySelector(".details span").classList.remove('success');
         document.querySelector(".details span").classList.remove('danger');
