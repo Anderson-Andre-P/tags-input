@@ -1,0 +1,113 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #5372F0;
+}
+
+.wrapper {
+    width: 496px;
+    background: #FFF;
+    border-radius: 10px;
+    padding: 18px 25px 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.06);
+}
+
+.wrapper :where(.title, li, li i, .details) {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .title img {
+    max-width: 21px;
+}
+
+.wrapper .title h2 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.wrapper .content {
+    margin: 10px 0;
+}
+
+.content p {
+    font-size: 15px;
+}
+
+.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px;
+    margin: 12px 0;
+    border: 1px solid #a6a6a6;
+    border-radius: 5px;
+}
+
+.content ul li {
+    color: #333;
+    list-style: none;
+    margin: 4px 3px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    border: 1px solid #e3d1e1;
+    padding: 5px 8px 5px 10px;
+}
+
+.content ul li i {
+    height: 20px;
+    width: 20px;
+    color: #808080;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 8px;
+    border-radius: 50%;
+    background: #dfdfdf;
+    justify-content: center;
+}
+
+.content ul input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.wrapper .details {
+    justify-content: space-between;
+}
+
+.details button {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 9px 15px;
+    border-radius: 5px;
+    background: #5372F0;
+}
+
+.success {
+    color: #00ff00;
+}
+
+.warning {
+    color: #ffff00;
+}
+
+.danger {
+    color: #ff0000;
+}
